@@ -33,7 +33,7 @@ FROM superstore
 GROUP BY category
 ORDER BY max_average_rating desc;
 
-SELECT MIN(average_rating) AS max_average_rating, category
+SELECT MIN(average_rating) AS min_average_rating, category
 FROM superstore
 GROUP BY category
-ORDER BY max_average_rating;
+ORDER BY min_average_rating;
