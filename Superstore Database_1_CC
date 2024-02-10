@@ -26,7 +26,7 @@ VALUES
     (15, 'Cozy Throw Blanket', 'Furnishings', 24.99, 100, 4.2);
 
 
-#For this project, I used SQL to query the Superstore database to get information about the highest and lowest average ratings for each category.
+**# For this project, I used SQL to query the Superstore database to get information about the highest and lowest average ratings for each category.**
 
 SELECT MAX(average_rating) AS max_average_rating, category
 FROM superstore
